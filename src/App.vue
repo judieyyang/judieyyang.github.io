@@ -1,7 +1,14 @@
 <template>
-  <router-view/>
+	<WebLayout />
 </template>
 
-<style lang="scss">
+<script>
+import WebLayout from './layout/WebLayout.vue';
 
-</style>
+export default {
+	name: 'App',
+	components: {
+		WebLayout,
+	},
+};
+</script>

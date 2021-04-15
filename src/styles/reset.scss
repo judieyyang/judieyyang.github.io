@@ -1,0 +1,19 @@
+* {
+  font-family: "微軟正黑體", "Microsoft JhengHei", "Microsoft JhengHei UI", “微軟雅黑”, "Microsoft YaHei", "Microsoft YaHei UI", sans-serif;
+  line-height: 1.5;
+  background-color: $background-orange;
+}
+
+a {
+  text-decoration: none;
+  color: $orange;
+
+  :visited {
+    color: inherit;
+  }
+}
+
+ol, ul {
+  padding: 0;
+  list-style: none;
+}

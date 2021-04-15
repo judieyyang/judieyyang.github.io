@@ -1,0 +1,51 @@
+// padding and margin
+
+$space-amounts: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+$sides: (top, right, bottom, left);
+
+@each $space in $space-amounts {
+  @each $side in $sides {
+    .m-#{$space} {
+      margin: 2px * $space !important;
+    }
+    .m-#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: 2px * $space !important;
+    }
+    .p-#{$space} {
+      padding: 2px * $space !important;
+    }
+    .p-#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: 2px * $space !important;
+    }
+  }
+}
+
+@each $space in $space-amounts {
+  .m-h-#{$space} {
+    margin-left: 2px * $space !important;
+    margin-right: 2px * $space !important;
+  }
+  .m-v-#{$space} {
+    margin-top: 2px * $space !important;
+    margin-bottom: 2px * $space !important;
+  }
+  .p-h-#{$space} {
+    padding-left: 2px * $space !important;
+    padding-right: 2px * $space !important;
+  }
+  .p-v-#{$space} {
+    padding-top: 2px * $space !important;
+    padding-bottom: 2px * $space !important;
+  }
+}
+
+// text
+.text__underline {
+  text-decoration: underline;
+}
+
+// pointer
+
+.cursor-pointer {
+  cursor: pointer;
+}
