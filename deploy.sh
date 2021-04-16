@@ -10,6 +10,6 @@ git add -A
 git commit -m 'deploy'
 
 # push to gh-pages branch
-git push https://github.com/judieyyang/judieyyang.github.io.git master:gh-pages
+git push -f https://github.com/judieyyang/judieyyang.github.io.git master:gh-pages
 
 cd -
