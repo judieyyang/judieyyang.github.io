@@ -33,6 +33,13 @@ export default {
 	margin-top: 100px;
 }
 
+@media screen and (max-width: 400px) {
+	.home__container {
+		margin: 0;
+		flex-direction: column;
+	}
+}
+
 .title__image {
 	width: 300px;
 	padding: 20px;

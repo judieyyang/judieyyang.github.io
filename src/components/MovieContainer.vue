@@ -88,6 +88,18 @@ export default {
 	flex-direction: column;
 }
 
+@media screen and (max-width: 400px) {
+	.movie__container {
+		width: 85%;
+		margin: 10px 0;
+	}
+
+	.movie__img {
+		margin: 0 auto;
+		width: 100% !important;
+	}
+}
+
 .movie__title {
 	font-weight: 700;
 }

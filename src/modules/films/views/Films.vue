@@ -134,4 +134,10 @@ export default {
 .container__right {
 	align-self: flex-end;
 }
+
+@media screen and (max-width: 400px) {
+	.container__right {
+		align-self: unset;
+	}
+}
 </style>

@@ -39,6 +39,13 @@ export default {
 	justify-content: center;
 }
 
+@media screen and (max-width: 400px) {
+	.about__container {
+		margin: 0;
+		flex-direction: column;
+	}
+}
+
 .about__description{
 	padding: 20px;
 }

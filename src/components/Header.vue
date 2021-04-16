@@ -8,7 +8,7 @@
 			<li
 				v-for="(link, index) in navLinks"
 				:key="index"
-				class="p-4">
+				class="nav__item">
 				<router-link
 					:to="{ name: link.name }"
 					class="nav__link">
@@ -63,6 +63,12 @@ export default {
 }
 
 .nav__item {
-	padding: 4px;
+	padding: 8px;
+}
+
+@media screen and (max-width: 400px) {
+	.nav__item {
+		padding: 4px !important;
+	}
 }
 </style>
