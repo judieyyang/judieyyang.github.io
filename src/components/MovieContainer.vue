@@ -82,6 +82,7 @@ export default {
 	margin: 20px;
 	border-radius: 20px;
 	box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+	background-color: #FDF5E6;
 
 	display: flex;
 	flex-direction: column;
