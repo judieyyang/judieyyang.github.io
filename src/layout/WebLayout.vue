@@ -1,11 +1,7 @@
 <template>
 	<div>
-		<transition
-			name="fade"
-			mode="out-in">
-			<Header
-				v-if="$route.name !== 'Home'" />
-		</transition>
+		<Header
+			v-if="$route.name !== 'Home'" />
 		<div id="content">
 			<router-view v-slot="{ Component }">
 				<transition
