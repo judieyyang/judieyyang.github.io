@@ -33,7 +33,7 @@ export default {
 	margin-top: 100px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 	.home__container {
 		margin: 0;
 		flex-direction: column;

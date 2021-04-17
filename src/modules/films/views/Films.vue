@@ -155,7 +155,7 @@ export default {
 	align-self: flex-end;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 	.container__right {
 		align-self: unset;
 	}

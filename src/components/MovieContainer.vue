@@ -93,7 +93,7 @@ export default {
 	flex-direction: column;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 	.movie__container {
 		width: 85%;
 		margin: 10px 0;

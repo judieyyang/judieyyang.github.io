@@ -66,7 +66,7 @@ export default {
 	padding: 8px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 	.nav__item {
 		padding: 4px !important;
 	}
