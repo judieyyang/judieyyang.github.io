@@ -10,11 +10,16 @@
 			<span class="m-r-2">
 				({{ movieDetails.status }})
 			</span>
+		</div>
+		<div
+			v-if="movieDetails.links.length > 0"
+			class="p-v-2">
 			<a
-				v-if="movieDetails.link"
-				:href="movieDetails.link"
+				v-for="(item, index) in movieDetails.links"
+				:key="index"
+				:href="item.link"
 				target="_blank">
-				預告 Preview Link
+				{{ item.linkTitle }}
 			</a>
 		</div>
 		<div class="p-v-2">
@@ -101,6 +106,7 @@ export default {
 }
 
 .movie__title {
+	font-size: 20px;
 	font-weight: 700;
 }
 

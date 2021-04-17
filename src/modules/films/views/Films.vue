@@ -26,7 +26,12 @@ export default {
 				{
 					title: 'C大13',
 					status: 'In post-production',
-					link: 'https://vimeo.com/501683604',
+					links: [
+						{
+							link: 'https://vimeo.com/501683604',
+							linkTitle: '預告 Preview Link',
+						},
+					],
 					img: c13Img,
 					engDescription: 'A young man in Taiwan devotes all his time, money, and curating talents to a Kpop girl that just disbanded, hoping to bring their popularity back.',
 					zhDescription: '一個台灣的年輕高材生自掏腰費、曠日費時，就是希望能替一個不續約的韓國女團重振人氣。',
@@ -34,7 +39,12 @@ export default {
 				{
 					title: '好膽麥走',
 					status: '2020',
-					link: 'https://vimeo.com/501685301',
+					links: [
+						{
+							link: 'https://vimeo.com/501685301',
+							linkTitle: '正片 Link',
+						},
+					],
 					img: runImg,
 					engDescription: 'Police got a call that the Pied Piper is out wronging again. Who is the target this time?',
 					zhDescription: '小女警出任務，要阻止神秘人士出來搗亂。誰是這次的受害者？',
@@ -42,7 +52,12 @@ export default {
 				{
 					title: '孫女偵探',
 					status: '2019',
-					link: 'https://www.youtube.com/watch?v=_nRDG6OfrNA',
+					links: [
+						{
+							link: 'https://www.youtube.com/watch?v=_nRDG6OfrNA',
+							linkTitle: '正片 Link',
+						},
+					],
 					img: detectiveImg,
 					engDescription: 'Judie’s visit to her grandmother sparks a conversation about language barriers, generational gaps, and the resilience of familial love.',
 					zhDescription: '擅長多國語言的孫女從小在世界各個城市奔走，卻因為台語太爛而不敢回溪口找阿嬤。27歲第一次自己一個人搭火車回家，卻讓阿嬤驚慌的四處打電話尋人，搞得孫女也很不好意思。但是這一次不一樣，孫女要用拍電影當藉口，拿著攝影機回鄉記錄阿嬤的生活，以偵探的姿態、抽絲剝繭的精神，一步一步向阿嬤靠近。阿嬤是不是也願意敞開心胸接納她呢？',
@@ -56,7 +71,12 @@ export default {
 				{
 					title: '台語恰恰恰',
 					status: '2019',
-					link: 'https://vimeo.com/494289510',
+					links: [
+						{
+							link: 'https://vimeo.com/494289510',
+							linkTitle: '正片 Link (歡迎來信索取密碼/To view the film, please feel free to email me for the password)',
+						},
+					],
 					img: twchachachaImg,
 					engDescription: 'Two young girls set out for a secret journey against their parents’ will in order to reconnect back with their grandparents. Their encounter encourages each other, turning the ridiculed and doubted journey into a meaningful and unexpected adventure.',
 					zhDescription: '十六歲的女高中生珮珮活在令人窒息的升學壓力之下。高材生筱琪忍受眾人的嘲笑只為了開啟自己的台語翻譯事業。一個星期六，因不會說台語而不能獨自回鄉下找阿公的珮珮，遇見了在大雨中奮力宣傳的筱琪，兩人順勢展開了一場小叛逆的冒險。',
