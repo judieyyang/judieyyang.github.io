@@ -10,9 +10,11 @@
 				:key="index"
 				class="nav__item">
 				<router-link
-					:to="{ name: link.name }"
-					class="nav__link">
-					{{ link.display }}
+					:to="{ name: link.name }">
+					<div class="nav__link">
+						<div>{{ link.displayZh }}</div>
+						<div>{{ link.displayEng }}</div>
+					</div>
 				</router-link>
 			</li>
 		</ul>
@@ -30,11 +32,28 @@ export default {
 	data() {
 		return {
 			navLinks: [
-				{ display: 'Home', name: 'Home' },
-				{ display: 'About 關於我', name: 'About' },
-				{ display: 'Contact 聯絡我', name: 'Contact' },
-				{ display: 'Films 影片', name: 'Films' },
-				{ display: 'Juju\'s Land' },
+				{
+					displayZh: 'Home',
+					name: 'Home',
+				},
+				{
+					displayZh: '關於我',
+					displayEng: 'About',
+					name: 'About',
+				},
+				{
+					displayZh: '聯絡我',
+					displayEng: 'Contact',
+					name: 'Contact',
+				},
+				{
+					displayZh: '影片',
+					displayEng: 'Films',
+					name: 'Films',
+				},
+				{
+					displayZh: 'Juju\'s Land',
+				},
 			],
 		};
 	},
@@ -63,12 +82,23 @@ export default {
 }
 
 .nav__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	padding: 8px;
 }
 
+.nav__link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 @media screen and (max-width: 450px) {
-	.nav__item {
-		padding: 4px !important;
+	.nav__link {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 }
 </style>
