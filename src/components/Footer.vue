@@ -1,7 +1,7 @@
 <template>
 	<div class="footer__container">
 		<div class="p-4">
-			© 2021 Judie
+			© 2021 Judie Yang
     </div>
 		<div class="p-4">
 			<span>聯絡我：</span>
