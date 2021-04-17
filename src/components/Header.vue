@@ -34,7 +34,7 @@ export default {
 				{ display: 'About 關於我', name: 'About' },
 				{ display: 'Contact 聯絡我', name: 'Contact' },
 				{ display: 'Films 影片', name: 'Films' },
-				{ display: 'Juju\'s Land (請大家期待一下)' },
+				{ display: 'Juju\'s Land' },
 			],
 		};
 	},
