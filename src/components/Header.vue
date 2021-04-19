@@ -52,7 +52,7 @@ export default {
 					name: 'Films',
 				},
 				{
-					displayZh: 'Juju\'s Land',
+					displayZh: 'Juju Land',
 				},
 			],
 		};
